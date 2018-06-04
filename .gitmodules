@@ -1,0 +1,4 @@
+[submodule "ops-bash-commons"]
+	path = ops-bash-commons
+	url = https://github.com/lzysh/ops-bash-commons.git
+	branch = master
