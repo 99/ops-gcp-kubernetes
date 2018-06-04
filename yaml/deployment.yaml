@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-web
+  namespace: hello-web 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hello-web 
+    spec:
+      containers:
+      - name: hello-web
+        image: gcr.io/google-samples/hello-app:1.0
+        ports:
+        - containerPort: 8080

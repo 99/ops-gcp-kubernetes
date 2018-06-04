@@ -1,0 +1,12 @@
+# Directories
+tmp/
+
+# Files
+client-secret.json
+*.log
+*.bak
+*.swp
+*.tmp
+*.gz
+*.tgz
+*.tar
